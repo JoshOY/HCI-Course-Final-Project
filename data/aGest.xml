@@ -1,4 +1,70 @@
 <?xml version="1.0"?>
+<!--
+   24x24 Hand gesture letter 'A' detector (see the detailed description below). 
+
+//////////////////////////////////////////////////////////////////////////
+| Contributors License Agreement
+| IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.
+|   By downloading, copying, installing or using the software you agree 
+|   to this license.
+|   If you do not agree to this license, do not download, install,
+|   copy or use the software.
+|
+| Copyright (c) 2005, Juan Wachs (Ben Gurion University of the Negev, Israel & Washington Hospital Center, DC, US).
+|  All rights reserved.
+|
+| Redistribution and use in source and binary forms, with or without
+| modification, are permitted provided that the following conditions are
+| met:
+|
+|    * Redistributions of source code must retain the above copyright
+|       notice, this list of conditions and the following disclaimer.
+|    * Redistributions in binary form must reproduce the above
+|      copyright notice, this list of conditions and the following
+|      disclaimer in the documentation and/or other materials provided
+|      with the distribution.  
+|    * The name of Contributor may not used to endorse or promote products 
+|      derived from this software without specific prior written permission.
+|
+| THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+| "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+| LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+| A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+| CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+| EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+| PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+| PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+| LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+| NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+| SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.  Back to
+| Top
+//////////////////////////////////////////////////////////////////////////
+
+"Haar"-based Detectors For Hand Gesture Letter 'A'
+===============================================
+by Juan Wachs, BGU, Israel
+
+These detector has been successfully applied to hand gesture detection
+in still images. They can be directly passed as parameters to the
+program HaarFaceDetect.
+NOTE: This detector deal with frontal view but not
+with side views 
+
+RESEARCHERS:
+If you are using any of the detectors or involved ideas please cite
+this paper (available at http://www.bgu.ac.il/~juan/index_files/Publications.html):
+
+J. Wachs, H. Stern, Y. Edan, M. Gillam, C. Feied, M. Smith, J. Handler.
+"A Real-Time Hand Gesture Interface for Medical Visualization Applications". 
+Applications of Soft Computing : Recent Trends. Springer Verlag, Germany, 
+Series: Advances in Soft Computing ,Tiwari, A.; Knowles, J.; Avineri, E.;
+Dahal, K.; Roy, R. (Eds.),2006. vol. 36,  pp. 153-163.
+
+COMMERCIAL:
+If you have any commercial interest in this work please contact 
+juan.wachs@gmail.com
+
+-->
 <opencv_storage>
 <A_gest type_id="opencv-haar-classifier">
   <size>
